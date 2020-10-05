@@ -107,8 +107,11 @@ function initBotConversation() {
                             // Use the following activity to proactively invoke a bot scenario
                           
                             triggeredScenario: {
-                                trigger: "{screening}",
-                           
+                                trigger: "screening",
+                           args: {
+                                    myVar1: "{custom_arg_1}",
+                                    myVar2: "{custom_arg_2}"
+                                }
                             }
                             
                         }
