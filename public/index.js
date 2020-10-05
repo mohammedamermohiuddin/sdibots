@@ -108,10 +108,7 @@ function initBotConversation() {
                           
                             triggeredScenario: {
                                 trigger: "{screening}",
-                                args: {
-                                    myVar1: "{custom_arg_1}",
-                                    myVar2: "{custom_arg_2}"
-                                }
+                           
                             }
                             
                         }
